@@ -1,0 +1,292 @@
+{
+  "hero": {
+    "name": "Divyansh Singh",
+    "tagline": "Backend Developer • Distributed Systems • Java / Spring Boot",
+    "location": "Gandhinagar, Gujarat, India",
+    "photo": "/images/divyansh-avatar.jpg",
+    "dob": "25-June-2002",
+
+    "contact": {
+      "phone": "+91-7073295354",
+      "email": "ds26733@gmail.com",
+      "linkedin": "https://linkedin.com/in/ivyansingh",
+      "github": "github.com/Ivyan26733",
+      "leetcode": "leetcode.com/u/Ivyan",
+      "codeforces": "codeforces.com/profile/ivyan"
+    }
+  },
+
+  "about": {
+    "blurb": "Backend-focused engineer with experience building scalable, production-grade systems in Java, Spring Boot, and SQL. Strong in API design, performance tuning, distributed messaging, caching, and cloud deployment. I care about reliability, clean architecture, observability, and writing code that can be owned by a team — not just shipped once."
+  },
+
+  "sections": [
+    {
+      "id": "experience",
+      "title": "Experience",
+      "items": [
+        {
+          "role": "Back-end Developer",
+          "company": "Tata Consultancy Services (TCS)",
+          "duration": "Jan 2025 – Present | Gandhinagar, Gujarat",
+          "points": [
+            "Engineered backend components for a telecom platform using Java (11+), Spring Boot, and RDBMS to improve performance and scalability in an Agile/Scrum setup.",
+            "Designed and implemented RESTful APIs for user registration, billing, and service provisioning, reducing response times.",
+            "Integrated CI/CD pipelines (Maven, Git, Docker) to automate deployments and accelerate release cycles.",
+            "Maintained code quality through JUnit/Mockito tests, peer reviews, and adherence to SOLID and SDLC best practices.",
+            "Applied functional programming patterns in Java (streams, immutability, declarative logic) to express complex business rules concisely."
+          ],
+          "tech_stack": [
+            "Java 11+",
+            "Spring Boot",
+            "REST APIs",
+            "RDBMS",
+            "Docker",
+            "CI/CD",
+            "Agile / Scrum",
+            "JUnit",
+            "Mockito",
+            "SOLID"
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "projects",
+      "title": "Projects",
+      "items": [
+        {
+          "role": "Backend Developer",
+          "company": "LearnSphere (Microservices EdTech Platform)",
+          "duration": "April 2025",
+          "points": [
+            "Built a microservices-based edtech platform with 5+ Spring Boot services, integrating PostgreSQL, RabbitMQ, and Redis for high availability and intelligent inter-service communication.",
+            "Secured workflows with JWT, Spring Security, and an API Gateway for fine-grained authN/authZ.",
+            "Improved scalability with Redis caching, async messaging (RabbitMQ), and optimized DB queries to keep the system reliable under heavy load.",
+            "Embedded a self-service mindset: structured logging, metrics, and monitoring for proactive troubleshooting instead of reactive firefighting.",
+            "Used containerization (Docker) and CI/CD automation for smooth deployments."
+          ],
+          "tech_stack": [
+            "Spring Boot",
+            "PostgreSQL",
+            "RabbitMQ",
+            "Redis",
+            "JWT",
+            "Spring Security",
+            "API Gateway",
+            "Docker",
+            "CI/CD",
+            "Observability / Logging"
+          ],
+          "links": [
+            "github.com/Ivyan26733/LearnSphere"
+          ]
+        },
+        {
+          "role": "Full Stack Developer",
+          "company": "Namaste College",
+          "duration": "March 2024",
+          "points": [
+            "Built a responsive campus platform using Django, HTML, JavaScript, and Tailwind CSS to improve college-wide digital access.",
+            "Delivered reusable modules (Placement Cell, Note Sharing) like low-code blocks so non-tech users could extend features without heavy dev effort.",
+            "Added alumni–student interaction and placement tracking to increase employability visibility.",
+            "Led a 4-person team through full SDLC, achieving ~95% user satisfaction.",
+            "Worked with threads / memory / caching considerations to ensure backend scalability."
+          ],
+          "tech_stack": [
+            "Django",
+            "Tailwind CSS",
+            "JavaScript",
+            "HTML",
+            "Scalable backend patterns",
+            "Team leadership"
+          ],
+          "links": [
+            "github.com/Ivyan26733/NamasteCollege"
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "education",
+      "title": "Education",
+      "items": [
+        {
+          "degree": "B.Tech, Mechanical Engineering",
+          "company": "Dayalbagh Educational Institute",
+          "duration": "Graduated 2024 | Uttar Pradesh",
+          "highlights": [
+            "Specialization: Computer Science",
+            "Coursework included core CS topics and systems design"
+          ]
+        },
+        {
+          "degree": "Intermediate (Class 12)",
+          "company": "St Stephen Sr. Sec. School",
+          "duration": "May 2020",
+          "highlights": [
+            "Percentage: 86%"
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "coursework",
+      "title": "Coursework",
+      "items": [
+        {
+          "role": "Undergraduate Coursework",
+          "duration": "",
+          "points": [
+            "Object Oriented Programming",
+            "Functional Programming in Java (Streams, Immutability)",
+            "Analysis and Design of Algorithms",
+            "System Design",
+            "Relational DBMS (R-DBMS)",
+            "Computer Networks",
+            "Digital Image Processing"
+          ],
+          "tech_stack": [
+            "OOP",
+            "FP in Java",
+            "Algorithms",
+            "System Design",
+            "SQL / RDBMS",
+            "Networking Fundamentals",
+            "Image Processing"
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "skills",
+      "title": "Skills",
+      "layout": "chips",
+      "items": [
+        {
+          "group": "Languages",
+          "list": [
+            "Java (Advanced: OOP + FP)",
+            "JavaScript (Intermediate)",
+            "Python (Intermediate)",
+            "Go (Intermediate)",
+            "C++ (Novice)"
+          ]
+        },
+        {
+          "group": "Frameworks & Libraries",
+          "list": [
+            "Spring Boot",
+            "React.js",
+            "Node.js",
+            "Java Servlet"
+          ]
+        },
+        {
+          "group": "Backend / Infra / Messaging",
+          "list": [
+            "Git",
+            "Linux (system-level debugging, scripting)",
+            "Redis (caching internals, optimization)",
+            "Docker",
+            "Kafka",
+            "RabbitMQ",
+            "CI/CD Pipelines"
+          ]
+        },
+        {
+          "group": "Cloud Platforms",
+          "list": [
+            "AWS (EC2, S3, IAM)",
+            "Azure"
+          ]
+        },
+        {
+          "group": "Databases",
+          "list": [
+            "MySQL",
+            "PostgreSQL",
+            "DynamoDB",
+            "MongoDB"
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "coding_profile",
+      "title": "Coding Profile",
+      "items": [
+        {
+          "role": "Competitive Programming / Problem Solving",
+          "duration": "",
+          "points": [
+            "LeetCode: Solved 600+ DSA problems; 1550+ rating in C++ and Java.",
+            "CodeForces: Achieved 930+ rating in live contests."
+          ],
+          "tech_stack": [
+            "Algorithms",
+            "Data Structures",
+            "Time Complexity Optimization",
+            "Contest Coding"
+          ],
+          "links": [
+            {
+              "label": "LeetCode",
+              "url": "https://leetcode.com/u/Ivyan",
+              "icon": "code"
+            },
+            {
+              "label": "CodeForces", 
+              "url": "https://codeforces.com/profile/ivyan",
+              "icon": "trophy"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "contact_me": {
+    "title": "Let's Connect",
+    "subtitle": "Reach out for backend roles, platform work, or collab ideas.",
+    "channels": {
+      "whatsapp": {
+        "label": "WhatsApp",
+        "number": "+917073295354",
+        "link": "https://wa.me/917073295354?text=Hi%20Divyansh%2C%20we%20saw%20your%20profile%20and%20would%20like%20to%20connect."
+      },
+      "telegram": {
+        "label": "Telegram",
+        "username": "@ivyan26733",
+        "link": "https://t.me/ivyan26733"
+      },
+      "email": {
+        "label": "Email",
+        "address": "ds26733@gmail.com"
+      }
+    }
+  },
+
+  "theme": {
+    "accent": "#6C4DFF",
+    "bgGradient": "radial-gradient(circle at 20% 20%, rgba(108,77,255,0.18) 0%, rgba(0,0,0,0) 70%)",
+    "textPrimary": "#FFFFFF",
+    "textSecondary": "#94A3B8",
+    "cardBg": "rgba(15,23,42,0.6)",
+    "cardBorder": "rgba(148,163,184,0.12)",
+    "glassBlur": "8px",
+    "radius": "1rem"
+  },
+
+  "effects": {
+    "entryMotion": "slide-up-fade",
+    "hoverCard": "lift-glow",
+    "avatarGlow": true,
+    "accentUnderline": true
+  }
+}
