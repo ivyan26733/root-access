@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { Send, MessageCircle, SendHorizonal, Mail } from "lucide-react";
+import { Send, MessageCircle, SendHorizonal, Download } from "lucide-react";
 
 export default function ContactMeCard({ data, theme }) {
   const { title, subtitle, channels } = data;
@@ -109,7 +109,8 @@ export default function ContactMeCard({ data, theme }) {
           </a>
 
           <a
-            href={`mailto:${channels.email.address}`}
+            href={channels.resume.url}
+            download
             className="text-[11px] px-3 py-2 rounded-lg border flex items-center gap-1 font-medium transition-all hover:-translate-y-0.5"
             style={{
               color: theme.textPrimary,
@@ -117,8 +118,8 @@ export default function ContactMeCard({ data, theme }) {
               backgroundColor: "rgba(255,255,255,0.02)",
             }}
           >
-            <Mail size={14} />
-            {channels.email.label}
+            <Download size={14} />
+            {channels.resume.label}
           </a>
         </div>
       </div>

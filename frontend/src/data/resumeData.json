@@ -265,9 +265,9 @@
         "username": "@ivyan26733",
         "link": "https://t.me/ivyan26733"
       },
-      "email": {
-        "label": "Email",
-        "address": "ds26733@gmail.com"
+      "resume": {
+        "label": "Download Resume",
+        "url": "/Divyansh_Singh.pdf"
       }
     }
   },
