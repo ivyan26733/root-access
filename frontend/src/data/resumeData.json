@@ -1,9 +1,9 @@
 {
   "hero": {
     "name": "Divyansh Singh",
-    "tagline": "Backend Developer • Distributed Systems • Java / Spring Boot",
+    "tagline": "Backend Developer • AI Automation • Java / Spring Boot / Next.js",
     "location": "Gandhinagar, Gujarat, India",
-    "photo": "/images/divyansh-avatar.jpg",
+    "photo": "/images/divyansh-sketch.png",
     "dob": "25-June-2002",
 
     "contact": {
@@ -17,7 +17,7 @@
   },
 
   "about": {
-    "blurb": "Backend-focused engineer with experience building scalable, production-grade systems in Java, Spring Boot, and SQL. Strong in API design, performance tuning, distributed messaging, caching, and cloud deployment. I care about reliability, clean architecture, observability, and writing code that can be owned by a team — not just shipped once."
+    "blurb": "Backend-focused engineer with experience building scalable, production-grade systems in Java, Spring Boot, and SQL. I built NexFlow — a production AI workflow automation platform with a custom parallel execution engine, real-time WebSocket canvas, and multi-LLM integration (Anthropic, OpenAI, Gemini, Groq, Mistral). Hands-on experience with Agentic AI flows, MCP (Model Context Protocol), and RAG architectures. Strong in API design, distributed messaging, cloud deployment, and writing systems that can be owned by a team — not just shipped once."
   },
 
   "sections": [
@@ -57,6 +57,49 @@
       "title": "Projects",
       "items": [
         {
+          "role": "Full Stack Developer & Platform Architect",
+          "company": "NexFlow — AI Workflow Automation Platform",
+          "duration": "2026 – Present",
+          "points": [
+            "Built a production-grade no-code AI workflow automation platform from scratch — canvas-based flow builder, real-time execution engine, and full observability into every run.",
+            "Engineered a custom parallel execution engine (Fork / Join) using CompletableFuture with WAIT_ALL, WAIT_FIRST, and WAIT_N quorum strategies for true concurrent branch execution.",
+            "Integrated 5 LLM providers (Anthropic, OpenAI, Gemini, Groq, Mistral) through a unified AI node with structured JSON output, schema enforcement, and automatic retry on parse failure.",
+            "Built real-time execution canvas over WebSocket (SockJS / STOMP) — every node lights up live, with per-node status, duration, and full I/O snapshots persisted to PostgreSQL.",
+            "Implemented Agentic flow architecture: flows can call sub-flows synchronously or asynchronously, enabling composable automation primitives and reusable agent chains.",
+            "Designed the nex.* context propagation layer — every node output is named and referenced downstream by path (nex.fetchUser.body.email), eliminating opaque UUIDs.",
+            "Built full auth stack: JWT + Spring Security + Google OAuth2 with HttpOnly cookies, OTP email verification via SMTP, and role-based access (ADMIN, SUB_ADMIN, USER).",
+            "Deployed on AWS EC2 (t3.micro) with Docker Compose, nginx reverse proxy, Cloudflare tunnel, and swap memory — Next.js 14 frontend on Vercel with full SEO, OG images, and JSON-LD."
+          ],
+          "tech_stack": [
+            "Java 17",
+            "Spring Boot 3",
+            "Next.js 14",
+            "React",
+            "PostgreSQL",
+            "RabbitMQ",
+            "WebSocket / SockJS",
+            "Docker",
+            "AWS EC2",
+            "Vercel",
+            "Multi-LLM (Anthropic / OpenAI / Gemini / Groq / Mistral)",
+            "JWT",
+            "Google OAuth2",
+            "nginx"
+          ],
+          "links": [
+            {
+              "label": "Live",
+              "url": "https://nex-flow-frontend.vercel.app",
+              "icon": "globe"
+            },
+            {
+              "label": "GitHub",
+              "url": "https://github.com/Ivyan26733/NexFlow-Frontend",
+              "icon": "github"
+            }
+          ]
+        },
+        {
           "role": "Backend Developer",
           "company": "LearnSphere (Microservices EdTech Platform)",
           "duration": "April 2025",
@@ -80,7 +123,11 @@
             "Observability / Logging"
           ],
           "links": [
-            "github.com/Ivyan26733/LearnSphere"
+            {
+              "label": "GitHub",
+              "url": "https://github.com/Ivyan26733/LearnSphere",
+              "icon": "github"
+            }
           ]
         },
         {
@@ -103,7 +150,11 @@
             "Team leadership"
           ],
           "links": [
-            "github.com/Ivyan26733/NamasteCollege"
+            {
+              "label": "GitHub",
+              "url": "https://github.com/Ivyan26733/NamasteCollege",
+              "icon": "github"
+            }
           ]
         }
       ]
@@ -181,9 +232,22 @@
           "group": "Frameworks & Libraries",
           "list": [
             "Spring Boot",
+            "Spring Security",
+            "Next.js 14",
             "React.js",
             "Node.js",
             "Java Servlet"
+          ]
+        },
+        {
+          "group": "AI / LLM",
+          "list": [
+            "Agentic AI Flows",
+            "MCP (Model Context Protocol)",
+            "RAG (Retrieval Augmented Generation)",
+            "Multi-LLM Integration (Anthropic, OpenAI, Gemini, Groq, Mistral)",
+            "Prompt Engineering",
+            "Structured JSON Output"
           ]
         },
         {
@@ -195,6 +259,8 @@
             "Docker",
             "Kafka",
             "RabbitMQ",
+            "WebSocket / SockJS",
+            "nginx",
             "CI/CD Pipelines"
           ]
         },
@@ -202,7 +268,8 @@
           "group": "Cloud Platforms",
           "list": [
             "AWS (EC2, S3, IAM)",
-            "Azure"
+            "Vercel",
+            "Cloudflare"
           ]
         },
         {
@@ -210,7 +277,6 @@
           "list": [
             "MySQL",
             "PostgreSQL",
-            "DynamoDB",
             "MongoDB"
           ]
         }
@@ -225,7 +291,7 @@
           "role": "Competitive Programming / Problem Solving",
           "duration": "",
           "points": [
-            "LeetCode: Solved 600+ DSA problems; 1550+ rating in C++ and Java.",
+            "LeetCode: Solved 800+ DSA problems; 1720+ rating in Java.",
             "CodeForces: Achieved 930+ rating in live contests."
           ],
           "tech_stack": [
@@ -241,9 +307,14 @@
               "icon": "code"
             },
             {
-              "label": "CodeForces", 
+              "label": "CodeForces",
               "url": "https://codeforces.com/profile/ivyan",
               "icon": "trophy"
+            },
+            {
+              "label": "GitHub",
+              "url": "https://github.com/Ivyan26733",
+              "icon": "github"
             }
           ]
         }
@@ -253,7 +324,7 @@
 
   "contact_me": {
     "title": "Let's Connect",
-    "subtitle": "Reach out for backend roles, platform work, or collab ideas.",
+    "subtitle": "Reach out for backend, AI automation, or full-stack roles — or just to collab.",
     "channels": {
       "whatsapp": {
         "label": "WhatsApp",
